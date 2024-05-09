@@ -1,0 +1,15 @@
+          INPUT			                       OUTPUT	
+Device	             PIN		        Device	        PIN
+Water Level Sensor	 A0		          Motor	            7              
+DHT	                 12			
+Start Button	        2		           LED	
+RTC(SDA)	            20		         LED	            45
+RTC(SCL)	            21		         Blue	            46
+                                     Green	          47
+LCD			                             Yellow	          48
+RS	5			
+EN	6		                             Stepper Motor	
+D4	8		                             IN1	            31
+D5	9		                             IN2	            33
+D6	10		                           IN3	            35
+D7	11		                           IN4	            37
