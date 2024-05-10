@@ -110,6 +110,19 @@ void checkWaterLevel() {
 
 void readTemperatureHumidity() {
 // Code to read temperature and humidity from DHT11 sensor and display on LCD
+  /*float temperature = dht.readTemperature();
+  float humidity = dht.readHumidity();
+  // Check if any reads failed
+  if(isnan(temperature) || isnan(humidity)){
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+  // Print temperature and humidity to serial monitor
+  Serial.print("Temperature: ");
+  Serial.print(temperature);
+  Serial.print(" °C, Humidity: ");
+  Serial.print(humidity);
+  Serial.println("%");*/
 }
 
 void controlFan() {
@@ -141,6 +154,29 @@ If vent button is pressed, open the vent
 
 void reportEvent(boolean motorStatus) {
 // Code to get current time and date from RTC module and transmit to host computer over USB
+  //sample code
+  // Check if RTC is available
+  /*if(!rtc.begin()){
+    Serial.println("Couldn't find RTC");
+    return;
+  }
+
+  // Get current time
+  DateTime now = rtc.now();
+  // Print timestamp and motor status to serial monitor
+  Serial.print(now.year(), DEC);
+  Serial.print('/');
+  Serial.print(now.month(), DEC);
+  Serial.print('/');
+  Serial.print(now.day(), DEC);
+  Serial.print(" ");
+  Serial.print(now.hour(), DEC);
+  Serial.print(':');
+  Serial.print(now.minute(), DEC);
+  Serial.print(':');
+  Serial.print(now.second(), DEC);
+  Serial.print(" - Event reported: Motor status is ");
+  Serial.println(motorStatus ? "ON" : "OFF");*/
 }
 
 void disableSystem() {
