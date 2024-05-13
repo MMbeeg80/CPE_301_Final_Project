@@ -1,0 +1,14 @@
+Datasheets for Parts Used
+
+Arduino Mega 2560: https://docs.arduino.cc/resources/datasheets/A000067-datasheet.pdf
+Water Level Sensor: https://curtocircuito.com.br/datasheet/sensor/nivel_de_agua_analogico.pdf
+DHT11: https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf
+LCD: https://www.arduino.cc/documents/datasheets/LCDscreen.PDF
+Stepper Motor: http://eeshop.unl.edu/pdf/Stepper+Driver.pdf
+ULN2003 Stepper Motor Driver: https://www.electronicoscaldas.com/datasheet/ULN2003A-PCB.pdf
+Fan Motor: https://www.arduino.cc/documents/datasheets/DCmotor6_9V.pdf
+Power Supply Board: http://www.handsontec.com/dataspecs/mb102-ps.pdf
+RTC DS1307: https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf
+Potentiometer: https://www.arduino.cc/documents/datasheets/ACP_potentiometers.pdf
+Push Button: https://www.arduino.cc/documents/datasheets/Button.pdf
+
